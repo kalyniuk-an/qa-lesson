@@ -1,0 +1,15 @@
+name = input("Name: ")
+age = int(input("Age: "))
+salary = float(input("Salary: "))
+
+print("\n===== USER INFO =====")
+print(f"Name: {name.title()}")
+print(f"Age: {age}")
+print(f"Salary: {salary:.2f}")
+
+print("\n===== BUILT-IN FUNCTIONS =====")
+print("Length of name:", len(name))
+print("Upper:", name.upper())
+print("Lower:", name.lower())
+print("Type:", type(age))
+print("Absolute salary:", abs(salary))
